@@ -8,8 +8,8 @@
     https://pokeapi.co/
 
 ## Antes de rodar:
-    Antes de rodas os testes gerar access token no site da gorest e 
-    substituir no lugar de xxx no ultimo teste de Karate.
+    Antes de rodas os testes gerar access token no site da gorest e substituir no lugar de 
+    xxx no ultimo teste de Karate.
 ## Testes realizados com cypress:
     1: Realiza o  registro de um cliente e abre uma conta para o mesmo
 
