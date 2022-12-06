@@ -35,7 +35,7 @@ describe('Teste no site globalsqa(Banking Project)', () => {
     cy.get('.fontBig').should('have.text', FullName)
   })
 
-  it("Caso de teste: Testa se o cliente nao consegue ", () => {
+  it("Caso de teste: Testa se o cliente nao consegue sacar mais do que em sua conta", () => {
     cy.visit("https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login")
     let cliente = criaCliente()
     cy.createClientePlus(cliente)
